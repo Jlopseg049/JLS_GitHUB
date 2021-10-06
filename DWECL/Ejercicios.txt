@@ -1,0 +1,13 @@
+nombre apellidos dni fecha_nacimiento email url pagina web
+con checkbox 
+
+(/^((\d|[1-9\d|1\d\d|2[0-4]\d]|25[0-5])))
+
+1.Validar que es fecha
+	var expresion = /^([1-9]|[1-2]\d|3[0-1])\/([1-9]|1[0-2])\/[1-2]\d\d\d$);
+2.Validar que es hora
+	var expresion = /^(0\d|1\d|2[3])\:([0-5]\d\):([0-5]\d)$/;
+3.La frase comienza por una palabra mayusula
+	var expresion = /^([A-ZÑ][a-zñ]*) .*$/;
+4.Expresion regular para una tarjeta de credito (16 digitos y puede tener espacio cada 4 caracteres)
+	var expresion = /^(\d{4} ?){3}\d{4}$/;
