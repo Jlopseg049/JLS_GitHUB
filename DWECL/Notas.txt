@@ -1,0 +1,10 @@
+Crear un prototipo para todas las cadenas que dado una cadena y otra cadena que coincida con la primera.
+(Ejemplo: Cuantas veces se repite "a" en "Juana va a ir al cine mañana")
+
+Poniendo lo siguiente:
+"Juana va a ir al cine mañana".buscarCoincidencias("a");
+
+String.prototype.buscarCoincidencias($char){
+	
+}
+
