@@ -11,3 +11,7 @@ con checkbox
 	var expresion = /^([A-ZÑ][a-zñ]*) .*$/;
 4.Expresion regular para una tarjeta de credito (16 digitos y puede tener espacio cada 4 caracteres)
 	var expresion = /^(\d{4} ?){3}\d{4}$/;
+5.Aula de un instituto(11a) primer numero es la planta, el segundo numero es el aula y la letra es el edificio
+a = 3 plantas
+b = 2 plantas
+D = 2 plantas
