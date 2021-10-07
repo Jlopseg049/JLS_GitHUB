@@ -18,3 +18,8 @@ D = 2 plantas
 	var expresion = /^(([1-9]a)|([1-3][0-9]a)|([1-9]	b)|([1-2][0-9]b)|([1-9]c)|([1-2][0-9]c)$/
 
 6. un fichero de imagen(acaba en .jpg.png.tiff) 
+
+validacion.
+	Una empresa de seguro de coches hay mucha informacion que hay que meter y que ir validando, 
+	entonces cualquier persona que se haga un serguo de coche , lo primero que va a tener que validar, 
+	es un dni. Entonces crearemos la funcion ValidaDNI. Seguido de un ValidaMatricula (5 numeros)
